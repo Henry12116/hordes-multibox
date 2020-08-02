@@ -1,0 +1,21 @@
+<hotkey ctrl C>
+    <sendpc local>
+        <RenameWin "Hordes.io - Mozilla Firefox" "h1">
+        <RenameWin "Hordes.io - Mozilla Firefox" "h2">
+        <RenameWin "Hordes.io - Mozilla Firefox" "h3">
+        <RenameWin "Hordes.io - Mozilla Firefox" "h4">
+        <RenameWin "Hordes.io - Mozilla Firefox" "h5">
+
+<Label char1 local SendWinX h1>
+<Label char2 local SendWinX h2>
+<Label char3 local SendWinX h3>
+<Label char4 local SendWinX h4>
+<Label char5 local SendWinX h5>
+
+<MovementHotkey w, a, s, d, space, left, right>
+    <SendLabel char1, char2, char3, char4, char5>
+        <Key %Trigger%>
+
+<HotKey 1, 2, 3, 4, 5, 6, p, tab>
+    <SendLabel char1, char2, char3, char4, char5>
+        <Key %Trigger%>
